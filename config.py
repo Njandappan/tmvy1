@@ -22,12 +22,12 @@ LOGGER = logging.getLogger(__name__)
 
 # Invoke Data >>>
 class Config:
-    API_ID = int(os.environ.get("API_ID", ""))
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    OWNER_ID = int(os.environ.get("OWNER_ID", 1504797855))
-    DB_URL = os.environ.get("DB_URL", "")
-    DB_NAME = os.environ.get("DB_NAME", "MrTamilKiD")
+    API_ID = int(os.environ.get("API_ID", "11329245"))
+    API_HASH = os.environ.get("API_HASH", "90988dcdd5ddd4d0a28843a1e2605924")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7659191951:AAGht2-znb4u99CI3zJklD9ikhFr8yDYEBk")
+    OWNER_ID = int(os.environ.get("OWNER_ID", 1364321375))
+    DB_URL = os.environ.get("DB_URL", "mongodb+srv://Tmvrss:Tmvrss@cluster0.zakos.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    DB_NAME = os.environ.get("DB_NAME", "Cluster0")
     # RSS Feed URL
     TAMILMV = os.environ.get("TMV", "https://www.1tamilmv.yt/")
     TAMILBLAST = os.environ.get("TB", "https://www.1tamilblasters.pm/")
