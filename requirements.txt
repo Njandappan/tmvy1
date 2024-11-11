@@ -1,0 +1,9 @@
+bs4
+feedparser
+lxml
+motor
+psutil
+pyrofork
+python-dotenv
+requests
+TgCrypto
