@@ -33,9 +33,9 @@ class Config:
     TAMILBLAST = os.environ.get("TB", "https://www.1tamilblasters.pm/")
     TAMILROCKERS = os.environ.get("TR", "https://2tamilrockers.com/")
     # log channel list
-    TAMILMV_LOG = os.environ.get("TMV_LOG", -1002049279065)
-    TAMILBLAST_LOG = os.environ.get("TB_LOG", -1002104864901)
-    TAMILROCKERS_LOG = os.environ.get("TR_LOG", -1002100329635)
+    TAMILMV_LOG = os.environ.get("TMV_LOG", -1002308254593)
+    TAMILBLAST_LOG = os.environ.get("TB_LOG", -1002308254593)
+    TAMILROCKERS_LOG = os.environ.get("TR_LOG", -1002308254593)
 
 
 
