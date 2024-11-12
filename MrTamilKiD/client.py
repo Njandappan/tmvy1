@@ -11,8 +11,8 @@ from MrTamilKiD.tools.rss_feed import tamilmv_rss_feed, tamilblasters_rss_feed, 
 class Client(pyClient):
     """ Custom Bot Class """
 
-    def __init__(self, session_name: Union[str, Storage] = "TamilMVAutoRss-Bot"):
-        super().__init__(
+    def init(self, session_name: Union[str, Storage] = "TamilMVAutoRss-Bot"):
+        super().init(
             session_name,
             api_id=Config.API_ID,
             api_hash=Config.API_HASH,
@@ -29,22 +29,22 @@ class Client(pyClient):
             await self.send_message(chat, "Bot Started!")
         while True:
             print("TamilMV Scraper Running...")
-            await tamilmv(self)
-            time.sleep(30)
+            # await tamilmv(self)
+            # time.sleep(30)
             print("TamilMV RSS Feed Running...")
             await tamilmv_rss_feed(self)
             time.sleep(150) 
             print("TamilBlasters Scraper Running...")
-            await tamilblasters(self)
-            time.sleep(30)
+            # await tamilblasters(self)
+            # time.sleep(30)
             print("TamilBlasters RSS Feed Running...")
             await tamilblasters_rss_feed(self)
             time.sleep(150)
-            print("TamilRockers Scraper Running...")
-            await tamilrockers(self)
-            time.sleep(30)
-            print("TamilRockers RSS Feed Running...")
-            await tamilrockers_rss_feed(self)
+            # print("TamilRockers Scraper Running...")
+            # await tamilrockers(self)
+            # time.sleep(30)
+            # print("TamilRockers RSS Feed Running...")
+            # await tamilrockers_rss_feed(self)
             print("Sleeping for 5 minutes...")
             time.sleep(300)
 
