@@ -29,7 +29,7 @@ class Config:
     DB_URL = os.environ.get("DB_URL", "mongodb+srv://Tmvrss:Tmvrss@cluster0.zakos.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     DB_NAME = os.environ.get("DB_NAME", "Cluster0")
     # RSS Feed URL
-    TAMILMV = os.environ.get("TMV", "https://www.1tamilmv.wf/")
+    TAMILMV = os.environ.get("TMV", "https://www.1tamilmv.at/")
     TAMILBLAST = os.environ.get("TB", "https://www.1tamilblasters.foo/")
     TAMILROCKERS = os.environ.get("TR", "https://2tamilrockers.com/")
     # log channel list
