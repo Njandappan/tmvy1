@@ -30,7 +30,7 @@ class Config:
     DB_NAME = os.environ.get("DB_NAME", "Cluster0")
     # RSS Feed URL
     TAMILMV = os.environ.get("TMV", "https://www.1tamilmv.at/")
-    TAMILBLAST = os.environ.get("TB", "https://www.1tamilblasters.foo/")
+    TAMILBLAST = os.environ.get("TB", "https://www.1tamilblasters.fyi/")
     TAMILROCKERS = os.environ.get("TR", "https://2tamilrockers.com/")
     # log channel list
     TAMILMV_LOG = os.environ.get("TMV_LOG", -1002308254593)
